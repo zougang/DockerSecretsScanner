@@ -9,13 +9,16 @@ security issues is lacked. Especially for enterprises that use self-built contai
 information is accessed by the outside, it is extremely easy to cause privacy leakage.
     We have developed a scanning tool for container repositories that focuses on detecting potential container privacy leakage issues,
 including but not limited to:
+
     - System account password and database account password saved in plaintext
 
     - Cloud service access key (AK) saved in plaintext
 
     - Personally identifiable information (PII) saved in plaintext
 
-    To our knowledge, we are the first open source tool that combines expert rules, machine learning and other techniques to detect privacy security issues in Docker.
+
+    To our knowledge, we are the first open source tool that combines expert rules, machine learning and other techniques to detect 
+privacy security issues in Docker.
 
 # Tool Details
 How to use：
