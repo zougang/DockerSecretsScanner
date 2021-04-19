@@ -1,8 +1,14 @@
 # DockerSecretsScanner
 
-	Docker is an open-source application container engine that allows developers to package their applications and dependency libraries into a portable image and publish them to any popular Linux or Windows hardware, as well as virtualize them. Containers are entirely sandboxed and don't have any interfaces to each other.
-    Docker has become an important tool for enterprises to develop, test, and deploy formal services.Currently, security tools for Docker are mainly focused on the discovery of various software vulnerabilities, and a tool that focuses on the discovery of privacy security issues is lacked. Especially for enterprises that use self-built container repository, once the image containing privacy information is accessed by the outside, it is extremely easy to cause privacy leakage.
-    We have developed a scanning tool for container repositories that focuses on detecting potential container privacy leakage issues, including but not limited to:
+	Docker is an open-source application container engine that allows developers to package their applications and dependency libraries 
+into a portable image and publish them to any popular Linux or Windows hardware, as well as virtualize them. Containers are entirely
+sandboxed and don't have any interfaces to each other.
+    Docker has become an important tool for enterprises to develop, test, and deploy formal services.Currently, security tools for
+Docker are mainly focused on the discovery of various software vulnerabilities, and a tool that focuses on the discovery of privacy
+security issues is lacked. Especially for enterprises that use self-built container repository, once the image containing privacy
+information is accessed by the outside, it is extremely easy to cause privacy leakage.
+    We have developed a scanning tool for container repositories that focuses on detecting potential container privacy leakage issues,
+including but not limited to:
     - System account password and database account password saved in plaintext
 
     - Cloud service access key (AK) saved in plaintext
