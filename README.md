@@ -16,13 +16,17 @@ To our knowledge, we are the first open source tool that combines expert rules, 
 privacy security issues in Docker.
 
 # Tool Details
+
 How to use：
+
  python secretscanner.py --help
 
  Usage: secretscanner.py [options]
 
  Options:
+
     -h, --help  show this help message and exit
+
     -i IMAGENAME, --image=IMAGENAME  docker image name
 
 1.	The ability of expert rules and AI models to detect the plaintext accounting and encryption information in Docker image files.
